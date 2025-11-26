@@ -1,11 +1,13 @@
 <script setup>
- import ChessBoard from '../components/Chessboard.vue'
+defineOptions({
+  name: 'GobangView',
+})
+
+import ChessBoard from '../components/Chessboard.vue'
 </script>
 
 <template>
-  <ChessBoard></ChessBoard>
+  <ChessBoard />
 </template>
 
-<style scoped lang="scss">
-
-</style>
+<style scoped lang="scss"></style>
